@@ -1,0 +1,10 @@
+struct Student{
+int roll;
+float marks;
+};
+
+int main() {
+Student st=new Student();
+cin>>st.roll;
+cin>>st.marks;
+cout<<st.roll<<" "<<st.marks;
